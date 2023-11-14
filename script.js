@@ -13,7 +13,7 @@ class App extends React.Component {
       breakLen: BREAKLEN, // min
       sessionLen: SESSIONLEN, // min
       timeLeft: SESSIONLEN * 60, // sec
-      timerType: FOCUS,
+      timerType: SESSION,
       isTimerRunning: false,
       intervalId: "" };
 
