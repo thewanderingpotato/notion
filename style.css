@@ -1,7 +1,7 @@
 /* General */
 
 body {
-  font-family: 'Garamond', serif;
+  font-family: 'Monaco', monospace;
  // background-color: #c2e6e8;
 }
 
@@ -19,6 +19,16 @@ button:active {
   height: 40px;
   border-radius: 100%;
   text-align: center;
+  box-shadow: 0.2em 0.2em rgb(19, 44, 51);
+  -webkit-box-shadow: 0.2em 0.2em rgb(19, 44, 51);
+  -moz-box-shadow: 0.2em 0.2em rgb(19, 44, 51);
+}
+
+button:focus {
+  translate: 0.2em 0.2em;
+  box-shadow: 0.2em 0.2em rgb(19, 44, 51) inset;
+  -webkit-box-shadow: 0.2em 0.2em rgb(19, 44, 51) inset;
+  -moz-box-shadow: 0.2em 0.2em rgb(19, 44, 51) inset;
 }
 
 /* Clock Body */
@@ -28,6 +38,7 @@ button:active {
   width: 300px;
   border-radius: 20px;
   padding: 30px;
+  box-shadow: 10px 10px rgb(19, 44, 51);
 }
 
 /* Display + Stop/Start/Reset Controls */
