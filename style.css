@@ -3,7 +3,7 @@
 /* General */
 
 body {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Garamond', serif;
  // background-color: #c2e6e8;
 }
 
@@ -17,13 +17,10 @@ button,
 button:active {
   background-color: rgb(234,178,156);
   border: none;
-  width: 42px;
+  width: 40px;
   height: 40px;
   border-radius: 100%;
   text-align: center;
-  box-shadow: 0.2em 0.2em rgb(194, 91, 44);
-  -webkit-box-shadow: 0.2em 0.2em rgb(194, 91, 44);
-  -moz-box-shadow: 0.2em 0.2em rgb(194, 91, 44);
 }
 
 button:focus {
