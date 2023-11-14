@@ -39,6 +39,7 @@ button:focus {
   border-radius: 20px;
   padding: 30px;
   box-shadow: 10px 10px rgb(19, 44, 51);
+  color: rgb(19, 44, 51);
 }
 
 /* Display + Stop/Start/Reset Controls */
@@ -85,6 +86,7 @@ button:focus {
   margin-top: 18px;
   display: flex;
   flex-direction: row;
+  color: rgb(216,227,231);
 }
 
 .inc-dec-btn-container {
