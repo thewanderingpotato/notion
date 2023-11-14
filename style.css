@@ -44,12 +44,12 @@ button:focus {
 /* Display + Stop/Start/Reset Controls */
 
 #time-left {
-  font-size: 70px;
+  font-size: 65px;
   text-align: center;
-  background-color: rgb(150,180,175);
+  background-color: rgb(216,227,231);
   padding: 20px;
   border-radius: 20px;
-  box-shadow: 3px 3px rgb(121, 145, 141) inset;
+  box-shadow: 2px 2px rgb(121, 145, 141) inset;
 }
 
 #display-controls {
