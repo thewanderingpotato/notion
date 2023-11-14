@@ -3,8 +3,8 @@ import ReactDOM from "https://cdn.skypack.dev/react-dom@17.0.1";
 
 const SESSION = "Session";
 const BREAK = "Break";
-const SESSIONLEN = 25;
-const BREAKLEN = 5;
+const SESSIONLEN = 50;
+const BREAKLEN = 10;
 
 class App extends React.Component {
   constructor(props) {
@@ -13,7 +13,7 @@ class App extends React.Component {
       breakLen: BREAKLEN, // min
       sessionLen: SESSIONLEN, // min
       timeLeft: SESSIONLEN * 60, // sec
-      timerType: SESSION,
+      timerType: FOCUS,
       isTimerRunning: false,
       intervalId: "" };
 
